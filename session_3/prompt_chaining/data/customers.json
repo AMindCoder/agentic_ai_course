@@ -1,0 +1,206 @@
+[
+  {
+    "customer_id": "CUST-001",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1-555-0123",
+    "loyalty_tier": "Gold",
+    "loyalty_points": 2500,
+    "account_created": "2022-03-15",
+    "total_orders": 12,
+    "address": {
+      "street": "123 Oak Street",
+      "city": "San Francisco",
+      "state": "CA",
+      "zip": "94102",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-002",
+    "name": "Michael Chen",
+    "email": "michael.chen@email.com",
+    "phone": "+1-555-0456",
+    "loyalty_tier": "Silver",
+    "loyalty_points": 1200,
+    "account_created": "2022-07-22",
+    "total_orders": 8,
+    "address": {
+      "street": "456 Pine Avenue",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90001",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-003",
+    "name": "Emma Williams",
+    "email": "emma.williams@email.com",
+    "phone": "+1-555-0789",
+    "loyalty_tier": "Platinum",
+    "loyalty_points": 5800,
+    "account_created": "2021-01-10",
+    "total_orders": 25,
+    "address": {
+      "street": "789 Maple Drive",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98101",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-004",
+    "name": "James Anderson",
+    "email": "james.anderson@email.com",
+    "phone": "+1-555-0234",
+    "loyalty_tier": "Bronze",
+    "loyalty_points": 450,
+    "account_created": "2023-05-18",
+    "total_orders": 3,
+    "address": {
+      "street": "321 Elm Street",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "78701",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-005",
+    "name": "Olivia Martinez",
+    "email": "olivia.martinez@email.com",
+    "phone": "+1-555-0567",
+    "loyalty_tier": "Gold",
+    "loyalty_points": 3100,
+    "account_created": "2021-11-03",
+    "total_orders": 15,
+    "address": {
+      "street": "654 Cedar Lane",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33101",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-006",
+    "name": "David Thompson",
+    "email": "david.thompson@email.com",
+    "phone": "+1-555-0890",
+    "loyalty_tier": "Silver",
+    "loyalty_points": 1650,
+    "account_created": "2022-09-12",
+    "total_orders": 9,
+    "address": {
+      "street": "987 Birch Road",
+      "city": "Boston",
+      "state": "MA",
+      "zip": "02101",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-007",
+    "name": "Sophia Lee",
+    "email": "sophia.lee@email.com",
+    "phone": "+1-555-0345",
+    "loyalty_tier": "Platinum",
+    "loyalty_points": 7200,
+    "account_created": "2020-06-25",
+    "total_orders": 32,
+    "address": {
+      "street": "147 Willow Way",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97201",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-008",
+    "name": "Robert Kim",
+    "email": "robert.kim@email.com",
+    "phone": "+1-555-0678",
+    "loyalty_tier": "Bronze",
+    "loyalty_points": 280,
+    "account_created": "2023-08-30",
+    "total_orders": 2,
+    "address": {
+      "street": "258 Spruce Court",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80201",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-009",
+    "name": "Isabella Garcia",
+    "email": "isabella.garcia@email.com",
+    "phone": "+1-555-0901",
+    "loyalty_tier": "Gold",
+    "loyalty_points": 2850,
+    "account_created": "2021-12-08",
+    "total_orders": 14,
+    "address": {
+      "street": "369 Poplar Place",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85001",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-010",
+    "name": "William Brown",
+    "email": "william.brown@email.com",
+    "phone": "+1-555-0432",
+    "loyalty_tier": "Silver",
+    "loyalty_points": 1420,
+    "account_created": "2022-04-16",
+    "total_orders": 7,
+    "address": {
+      "street": "741 Ash Boulevard",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60601",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-011",
+    "name": "Ava Rodriguez",
+    "email": "ava.rodriguez@email.com",
+    "phone": "+1-555-0765",
+    "loyalty_tier": "Platinum",
+    "loyalty_points": 6500,
+    "account_created": "2020-10-20",
+    "total_orders": 28,
+    "address": {
+      "street": "852 Hickory Drive",
+      "city": "Atlanta",
+      "state": "GA",
+      "zip": "30301",
+      "country": "USA"
+    }
+  },
+  {
+    "customer_id": "CUST-012",
+    "name": "Daniel Wilson",
+    "email": "daniel.wilson@email.com",
+    "phone": "+1-555-0198",
+    "loyalty_tier": "Bronze",
+    "loyalty_points": 320,
+    "account_created": "2023-06-14",
+    "total_orders": 2,
+    "address": {
+      "street": "963 Magnolia Street",
+      "city": "Nashville",
+      "state": "TN",
+      "zip": "37201",
+      "country": "USA"
+    }
+  }
+]
