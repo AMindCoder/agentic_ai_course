@@ -1,0 +1,397 @@
+[
+  {
+    "request_type": "software_issue",
+    "issue_category": "installation_failure",
+    "ticket_id": "SW-2024-4521",
+    "software_name": "Microsoft Office 365",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 30,
+    "priority": "MEDIUM",
+    "troubleshooting_steps": [
+      "Uninstall previous version completely",
+      "Clear temporary installation files",
+      "Run installer with administrator privileges",
+      "Restart computer after installation"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "immediate or scheduled",
+      "estimated_duration_minutes": 20
+    },
+    "known_issues": [
+      "Conflicts with antivirus software - temporarily disable during install",
+      "Requires Windows 10 or higher",
+      "Minimum 4GB RAM required"
+    ],
+    "alternative_solution": {
+      "type": "web_version",
+      "url": "office.com",
+      "immediate_access": true
+    },
+    "success_rate": "92%",
+    "next_steps": "Follow troubleshooting guide or schedule remote support session"
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "application_crash",
+    "ticket_id": "SW-2024-4522",
+    "software_name": "Adobe Photoshop",
+    "status": "investigating",
+    "estimated_resolution_minutes": 45,
+    "priority": "HIGH",
+    "troubleshooting_steps": [
+      "Clear application cache",
+      "Update graphics drivers",
+      "Reset application preferences",
+      "Reinstall if issue persists"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "within 1 hour",
+      "estimated_duration_minutes": 30
+    },
+    "known_issues": [
+      "GPU compatibility issues with certain models",
+      "Corrupt preferences file causing crashes"
+    ],
+    "alternative_solution": {
+      "type": "previous_version",
+      "version": "2023.5",
+      "stability": "stable"
+    },
+    "success_rate": "87%",
+    "next_steps": "Apply quick fixes or schedule immediate remote support"
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "slow_performance",
+    "ticket_id": "SW-2024-4523",
+    "software_name": "Outlook",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 25,
+    "priority": "MEDIUM",
+    "troubleshooting_steps": [
+      "Compact mailbox to reduce PST file size",
+      "Disable unnecessary add-ins",
+      "Archive old emails to separate folder",
+      "Run Outlook in safe mode to identify conflicting add-ins"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "same day",
+      "estimated_duration_minutes": 20
+    },
+    "known_issues": [
+      "Large mailbox size (over 10GB) causes slowness",
+      "Conflicting add-ins from third-party applications",
+      "Corrupted search index"
+    ],
+    "alternative_solution": {
+      "type": "web_version",
+      "url": "outlook.office.com",
+      "immediate_access": true
+    },
+    "success_rate": "91%",
+    "next_steps": "Try mailbox cleanup first. IT can assist with archiving if needed."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "license_activation_error",
+    "ticket_id": "SW-2024-4524",
+    "software_name": "AutoCAD",
+    "status": "pending_approval",
+    "estimated_resolution_minutes": 120,
+    "priority": "HIGH",
+    "troubleshooting_steps": [
+      "Verify license key from IT asset management",
+      "Check if license is already assigned to another user",
+      "Request license transfer or new license",
+      "Reactivate software with correct license key"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "after license approval",
+      "estimated_duration_minutes": 15
+    },
+    "known_issues": [
+      "License pool may be at maximum capacity",
+      "Previous installation not properly deactivated",
+      "Network license server connectivity issues"
+    ],
+    "alternative_solution": {
+      "type": "trial_version",
+      "duration": "30 days",
+      "immediate_access": true
+    },
+    "success_rate": "85%",
+    "next_steps": "Contact software@company.com to verify license availability and request assignment."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "vpn_client_error",
+    "ticket_id": "SW-2024-4525",
+    "software_name": "Cisco AnyConnect VPN",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 20,
+    "priority": "HIGH",
+    "troubleshooting_steps": [
+      "Restart VPN client service",
+      "Clear VPN cache and reconnect",
+      "Update VPN client to latest version",
+      "Reinstall VPN client if connection fails"
+    ],
+    "remote_support_available": false,
+    "remote_session": {
+      "available": false,
+      "scheduling": "N/A",
+      "estimated_duration_minutes": 0
+    },
+    "known_issues": [
+      "Firewall blocking VPN connection",
+      "Outdated VPN client version",
+      "Expired VPN certificate"
+    ],
+    "alternative_solution": {
+      "type": "web_vpn",
+      "url": "vpn.company.com",
+      "immediate_access": true
+    },
+    "success_rate": "94%",
+    "next_steps": "Try reinstall first. Contact Network Team at ext. 4700 if unresolved."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "email_sync_problem",
+    "ticket_id": "SW-2024-4526",
+    "software_name": "Microsoft Outlook",
+    "status": "diagnosing",
+    "estimated_resolution_minutes": 30,
+    "priority": "MEDIUM",
+    "troubleshooting_steps": [
+      "Send/Receive manually to check connectivity",
+      "Verify Exchange server connection settings",
+      "Remove and re-add email account",
+      "Create new Outlook profile if needed"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "within 2 hours",
+      "estimated_duration_minutes": 25
+    },
+    "known_issues": [
+      "Corrupted Outlook profile",
+      "Exchange server maintenance affecting sync",
+      "Incorrect account credentials"
+    ],
+    "alternative_solution": {
+      "type": "webmail",
+      "url": "mail.company.com",
+      "immediate_access": true
+    },
+    "success_rate": "88%",
+    "next_steps": "Try manual send/receive first. Profile recreation may be needed."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "browser_issues",
+    "ticket_id": "SW-2024-4527",
+    "software_name": "Google Chrome",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 15,
+    "priority": "LOW",
+    "troubleshooting_steps": [
+      "Clear browser cache and cookies",
+      "Disable problematic extensions",
+      "Reset browser settings to default",
+      "Reinstall Chrome if issues persist"
+    ],
+    "remote_support_available": false,
+    "remote_session": {
+      "available": false,
+      "scheduling": "N/A",
+      "estimated_duration_minutes": 0
+    },
+    "known_issues": [
+      "Excessive extensions causing slowness",
+      "Corrupted browser profile",
+      "Conflicting with security software"
+    ],
+    "alternative_solution": {
+      "type": "alternative_browser",
+      "options": ["Microsoft Edge", "Firefox"],
+      "immediate_access": true
+    },
+    "success_rate": "96%",
+    "next_steps": "Clear cache first. Use alternative browser if urgent."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "database_connection_error",
+    "ticket_id": "SW-2024-4528",
+    "software_name": "SQL Server Management Studio",
+    "status": "investigating",
+    "estimated_resolution_minutes": 40,
+    "priority": "HIGH",
+    "troubleshooting_steps": [
+      "Verify database server is accessible via ping",
+      "Check SQL Server service is running",
+      "Confirm connection string and credentials",
+      "Test connection from different machine"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "immediate",
+      "estimated_duration_minutes": 30
+    },
+    "known_issues": [
+      "Network firewall blocking port 1433",
+      "SQL Server service not running",
+      "Incorrect authentication mode"
+    ],
+    "alternative_solution": {
+      "type": "web_portal",
+      "url": "db-portal.company.com",
+      "immediate_access": false
+    },
+    "success_rate": "83%",
+    "next_steps": "Contact Database Admin team at ext. 4900 if connection test fails."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "antivirus_quarantine",
+    "ticket_id": "SW-2024-4529",
+    "software_name": "McAfee Endpoint Security",
+    "status": "pending_review",
+    "estimated_resolution_minutes": 60,
+    "priority": "MEDIUM",
+    "troubleshooting_steps": [
+      "Check quarantine log for false positive",
+      "Submit file for security review",
+      "Request whitelist exception if legitimate",
+      "Restore file after approval"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "after security review",
+      "estimated_duration_minutes": 15
+    },
+    "known_issues": [
+      "Custom scripts flagged as potential threats",
+      "Development tools quarantined by antivirus",
+      "False positives on safe executables"
+    ],
+    "alternative_solution": {
+      "type": "temporary_exception",
+      "approval_required": true,
+      "contact": "IT Security at ext. 5000"
+    },
+    "success_rate": "90%",
+    "next_steps": "Contact IT Security to review quarantined file and request exception if safe."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "shared_drive_access",
+    "ticket_id": "SW-2024-4530",
+    "software_name": "Windows File Explorer",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 20,
+    "priority": "MEDIUM",
+    "troubleshooting_steps": [
+      "Verify you have permissions to access the share",
+      "Disconnect and reconnect mapped drive",
+      "Check if shared folder is online",
+      "Clear cached credentials and reconnect"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "same day",
+      "estimated_duration_minutes": 15
+    },
+    "known_issues": [
+      "Expired credentials for network share",
+      "Missing AD group membership",
+      "File server maintenance or downtime"
+    ],
+    "alternative_solution": {
+      "type": "web_access",
+      "url": "files.company.com",
+      "immediate_access": true
+    },
+    "success_rate": "92%",
+    "next_steps": "Try reconnecting drive first. Contact manager to verify access permissions."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "video_conferencing_issues",
+    "ticket_id": "SW-2024-4531",
+    "software_name": "Microsoft Teams",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 15,
+    "priority": "HIGH",
+    "troubleshooting_steps": [
+      "Test audio/video in Teams settings",
+      "Update Teams to latest version",
+      "Clear Teams cache folder",
+      "Restart Teams application"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "immediate",
+      "estimated_duration_minutes": 15
+    },
+    "known_issues": [
+      "Microphone/camera blocked by system settings",
+      "Outdated Teams version causing compatibility issues",
+      "Network bandwidth insufficient for video"
+    ],
+    "alternative_solution": {
+      "type": "web_version",
+      "url": "teams.microsoft.com",
+      "immediate_access": true
+    },
+    "success_rate": "93%",
+    "next_steps": "Check device settings first. Use web version if desktop app fails."
+  },
+  {
+    "request_type": "software_issue",
+    "issue_category": "printer_driver_error",
+    "ticket_id": "SW-2024-4532",
+    "software_name": "Printer Driver",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 25,
+    "priority": "MEDIUM",
+    "troubleshooting_steps": [
+      "Remove and re-add printer",
+      "Update printer driver from manufacturer website",
+      "Set as default printer if multiple exist",
+      "Run Windows printer troubleshooter"
+    ],
+    "remote_support_available": true,
+    "remote_session": {
+      "available": true,
+      "scheduling": "within 2 hours",
+      "estimated_duration_minutes": 20
+    },
+    "known_issues": [
+      "Incompatible driver after Windows update",
+      "Print spooler service stopped",
+      "Corrupted print queue"
+    ],
+    "alternative_solution": {
+      "type": "different_printer",
+      "location": "Check printer map at printmap.company.com",
+      "immediate_access": true
+    },
+    "success_rate": "89%",
+    "next_steps": "Try driver reinstall. Use nearby printer if urgent printing needed."
+  }
+]

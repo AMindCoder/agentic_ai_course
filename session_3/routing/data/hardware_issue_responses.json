@@ -1,0 +1,408 @@
+[
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "laptop_failure",
+    "ticket_id": "HW-2024-8731",
+    "status": "created",
+    "estimated_resolution_days": 3,
+    "priority": "HIGH",
+    "immediate_actions": [
+      "Backup critical data if possible",
+      "Request loaner laptop from IT desk",
+      "Submit diagnostic report via support portal"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Support Desk, Building A",
+      "model": "Standard Business Laptop",
+      "pickup_time": "within 2 hours"
+    },
+    "repair_options": [
+      {
+        "type": "on_site_repair",
+        "time": "2-3 business days"
+      },
+      {
+        "type": "mail_in_repair",
+        "time": "5-7 business days"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "IT technician will contact you within 1 hour"
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "monitor_failure",
+    "ticket_id": "HW-2024-8732",
+    "status": "created",
+    "estimated_resolution_days": 1,
+    "priority": "MEDIUM",
+    "immediate_actions": [
+      "Check cable connections",
+      "Try alternate display port",
+      "Request replacement monitor"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Storage, Floor 2",
+      "model": "24-inch LED Monitor",
+      "pickup_time": "same day"
+    },
+    "repair_options": [
+      {
+        "type": "direct_replacement",
+        "time": "same day"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Pick up replacement monitor from IT Storage"
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "keyboard_malfunction",
+    "ticket_id": "HW-2024-8733",
+    "status": "created",
+    "estimated_resolution_days": 0,
+    "priority": "LOW",
+    "immediate_actions": [
+      "Try USB keyboard from IT supply closet",
+      "Clean keyboard keys if sticky",
+      "Update keyboard drivers",
+      "Request replacement if cleaning doesn't help"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Supply Closet, Floor 2, Room 205",
+      "model": "Standard USB Keyboard",
+      "pickup_time": "immediate - self-service"
+    },
+    "repair_options": [
+      {
+        "type": "self_service_replacement",
+        "time": "immediate"
+      },
+      {
+        "type": "cleaning_service",
+        "time": "1 hour"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Try self-service replacement first. Contact IT if issue persists."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "printer_jam",
+    "ticket_id": "HW-2024-8734",
+    "status": "troubleshooting",
+    "estimated_resolution_days": 0,
+    "priority": "LOW",
+    "immediate_actions": [
+      "Turn off printer and open access panels",
+      "Remove jammed paper carefully following arrows",
+      "Check for torn paper pieces",
+      "Close panels and restart printer"
+    ],
+    "replacement_available": false,
+    "loaner_device": {
+      "available": false,
+      "pickup_location": "N/A",
+      "model": "N/A",
+      "pickup_time": "N/A"
+    },
+    "repair_options": [
+      {
+        "type": "self_service",
+        "time": "15 minutes"
+      },
+      {
+        "type": "on_site_technician",
+        "time": "2-4 hours"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Follow self-service guide. Escalate if error persists after clearing jam."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "mouse_not_working",
+    "ticket_id": "HW-2024-8735",
+    "status": "created",
+    "estimated_resolution_days": 0,
+    "priority": "LOW",
+    "immediate_actions": [
+      "Replace mouse batteries if wireless",
+      "Try different USB port",
+      "Restart computer",
+      "Pick up replacement mouse from IT closet"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Supply Closet, Floor 2, Room 205",
+      "model": "Wireless or Wired Mouse",
+      "pickup_time": "immediate - self-service"
+    },
+    "repair_options": [
+      {
+        "type": "self_service_replacement",
+        "time": "immediate"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Self-service replacement available. Batteries also available in supply closet."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "docking_station_issues",
+    "ticket_id": "HW-2024-8736",
+    "status": "diagnosing",
+    "estimated_resolution_days": 1,
+    "priority": "MEDIUM",
+    "immediate_actions": [
+      "Unplug and replug all docking station connections",
+      "Update docking station firmware via IT portal",
+      "Restart laptop with dock connected",
+      "Test with different power outlet"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Support Desk, Building A",
+      "model": "Universal USB-C Docking Station",
+      "pickup_time": "within 4 hours"
+    },
+    "repair_options": [
+      {
+        "type": "firmware_update",
+        "time": "30 minutes"
+      },
+      {
+        "type": "replacement",
+        "time": "1 business day"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Try firmware update first. If unresolved, schedule replacement."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "headset_audio_problems",
+    "ticket_id": "HW-2024-8737",
+    "status": "created",
+    "estimated_resolution_days": 0,
+    "priority": "MEDIUM",
+    "immediate_actions": [
+      "Check audio jack is fully inserted",
+      "Test headset on another device",
+      "Update audio drivers via Windows Update",
+      "Adjust audio settings in Control Panel"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Supply Closet, Floor 2, Room 205",
+      "model": "Standard USB Headset",
+      "pickup_time": "immediate - self-service"
+    },
+    "repair_options": [
+      {
+        "type": "driver_update",
+        "time": "15 minutes"
+      },
+      {
+        "type": "self_service_replacement",
+        "time": "immediate"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Update drivers first. Replacement headsets available for immediate pickup."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "battery_not_charging",
+    "ticket_id": "HW-2024-8738",
+    "status": "investigating",
+    "estimated_resolution_days": 2,
+    "priority": "HIGH",
+    "immediate_actions": [
+      "Try different power outlet and power cable",
+      "Check for battery health in system settings",
+      "Update BIOS and power management drivers",
+      "Work near power outlet until resolved"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Support Desk, Building A",
+      "model": "Loaner laptop with working battery",
+      "pickup_time": "within 2 hours"
+    },
+    "repair_options": [
+      {
+        "type": "battery_replacement",
+        "time": "2-3 business days"
+      },
+      {
+        "type": "power_adapter_replacement",
+        "time": "1 business day"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "IT will diagnose if battery or adapter issue. Loaner available if critical."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "webcam_not_detected",
+    "ticket_id": "HW-2024-8739",
+    "status": "troubleshooting",
+    "estimated_resolution_days": 0,
+    "priority": "HIGH",
+    "immediate_actions": [
+      "Check if webcam is covered by privacy slider",
+      "Enable webcam in BIOS settings",
+      "Update webcam drivers via Device Manager",
+      "Check app permissions for camera access"
+    ],
+    "replacement_available": true,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Supply Closet, Floor 2, Room 205",
+      "model": "External USB Webcam",
+      "pickup_time": "immediate - self-service"
+    },
+    "repair_options": [
+      {
+        "type": "driver_reinstall",
+        "time": "20 minutes"
+      },
+      {
+        "type": "bios_settings",
+        "time": "10 minutes"
+      },
+      {
+        "type": "external_webcam",
+        "time": "immediate"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Follow troubleshooting guide. External webcam available for immediate use."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "overheating_laptop",
+    "ticket_id": "HW-2024-8740",
+    "status": "scheduled",
+    "estimated_resolution_days": 1,
+    "priority": "MEDIUM",
+    "immediate_actions": [
+      "Ensure laptop vents are not blocked",
+      "Use laptop cooling pad if available",
+      "Close resource-intensive applications",
+      "Schedule cleaning service with IT"
+    ],
+    "replacement_available": false,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Support Desk, Building A",
+      "model": "Laptop cooling pad",
+      "pickup_time": "same day"
+    },
+    "repair_options": [
+      {
+        "type": "cleaning_service",
+        "time": "4 hours"
+      },
+      {
+        "type": "fan_replacement",
+        "time": "2 business days"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Schedule maintenance cleaning. IT will check fans and thermal paste."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "external_drive_not_recognized",
+    "ticket_id": "HW-2024-8741",
+    "status": "troubleshooting",
+    "estimated_resolution_days": 0,
+    "priority": "MEDIUM",
+    "immediate_actions": [
+      "Try different USB port (USB 3.0 preferred)",
+      "Check if drive appears in Disk Management",
+      "Assign drive letter if unallocated",
+      "Try drive on another computer to isolate issue"
+    ],
+    "replacement_available": false,
+    "loaner_device": {
+      "available": false,
+      "pickup_location": "N/A",
+      "model": "N/A",
+      "pickup_time": "N/A"
+    },
+    "repair_options": [
+      {
+        "type": "driver_update",
+        "time": "15 minutes"
+      },
+      {
+        "type": "disk_management_config",
+        "time": "10 minutes"
+      },
+      {
+        "type": "data_recovery_service",
+        "time": "2-5 business days"
+      }
+    ],
+    "warranty_status": "depends_on_device",
+    "estimated_cost": 0,
+    "next_steps": "Follow troubleshooting steps. Contact IT if drive contains critical data."
+  },
+  {
+    "request_type": "hardware_issue",
+    "issue_category": "touch_screen_unresponsive",
+    "ticket_id": "HW-2024-8742",
+    "status": "created",
+    "estimated_resolution_days": 2,
+    "priority": "MEDIUM",
+    "immediate_actions": [
+      "Restart device and calibrate touch screen",
+      "Clean screen with microfiber cloth",
+      "Update touch screen drivers",
+      "Disable and re-enable touch input in Device Manager"
+    ],
+    "replacement_available": false,
+    "loaner_device": {
+      "available": true,
+      "pickup_location": "IT Support Desk, Building A",
+      "model": "External mouse and keyboard",
+      "pickup_time": "immediate"
+    },
+    "repair_options": [
+      {
+        "type": "calibration",
+        "time": "15 minutes"
+      },
+      {
+        "type": "screen_replacement",
+        "time": "3-5 business days"
+      }
+    ],
+    "warranty_status": "active",
+    "estimated_cost": 0,
+    "next_steps": "Try calibration first. Screen replacement may be needed if hardware failure."
+  }
+]

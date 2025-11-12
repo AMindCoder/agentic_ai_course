@@ -1,0 +1,457 @@
+[
+  {
+    "request_type": "network_problem",
+    "issue_category": "connectivity_loss",
+    "ticket_id": "NET-2024-6841",
+    "status": "diagnosing",
+    "estimated_resolution_minutes": 15,
+    "priority": "HIGH",
+    "immediate_diagnostics": [
+      "Check physical ethernet cable connection",
+      "Restart network adapter",
+      "Run Windows Network Troubleshooter",
+      "Verify WiFi is enabled"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "checking",
+      "isp_status": "no outages reported"
+    },
+    "temporary_solution": {
+      "type": "mobile_hotspot",
+      "available": true,
+      "instructions": "Use company mobile hotspot device from IT desk"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": false,
+      "network_team_eta": "15 minutes if needed"
+    },
+    "success_rate": "94%",
+    "next_steps": "Complete basic diagnostics, then contact network team if unresolved"
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "slow_connection",
+    "ticket_id": "NET-2024-6842",
+    "status": "monitoring",
+    "estimated_resolution_minutes": 20,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Run speed test at speedtest.net",
+      "Check for bandwidth-heavy applications",
+      "Clear browser cache",
+      "Switch to wired connection if using WiFi"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "high utilization detected",
+      "user_port": "operational",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "alternative_network",
+      "available": true,
+      "instructions": "Connect to 'Guest-WiFi-5GHz' for faster speeds"
+    },
+    "remote_support_available": false,
+    "escalation": {
+      "required": true,
+      "network_team_eta": "30 minutes",
+      "reason": "Floor switch optimization needed"
+    },
+    "success_rate": "78%",
+    "next_steps": "Network team will optimize switch settings during low-traffic period"
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "wifi_authentication_failed",
+    "ticket_id": "NET-2024-6843",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 10,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Forget WiFi network and reconnect",
+      "Verify using correct network credentials",
+      "Check if device MAC address is registered",
+      "Try connecting to guest network first"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "N/A",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "ethernet_connection",
+      "available": true,
+      "instructions": "Use ethernet cable from IT supply closet"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": false,
+      "network_team_eta": "20 minutes if needed"
+    },
+    "success_rate": "91%",
+    "next_steps": "Forget and reconnect to WiFi. Contact IT if MAC registration needed."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "dns_resolution_error",
+    "ticket_id": "NET-2024-6844",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 12,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Flush DNS cache (ipconfig /flushdns)",
+      "Change DNS servers to 8.8.8.8 and 8.8.4.4",
+      "Restart DNS client service",
+      "Test with direct IP address access"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "operational",
+      "isp_status": "DNS issues reported in region"
+    },
+    "temporary_solution": {
+      "type": "alternative_dns",
+      "available": true,
+      "instructions": "Switch to Google DNS (8.8.8.8) or Cloudflare DNS (1.1.1.1)"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": false,
+      "network_team_eta": "15 minutes if needed"
+    },
+    "success_rate": "89%",
+    "next_steps": "Flush DNS and try alternative DNS servers. Contact network team if persists."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "vpn_connection_drops",
+    "ticket_id": "NET-2024-6845",
+    "status": "investigating",
+    "estimated_resolution_minutes": 25,
+    "priority": "HIGH",
+    "immediate_diagnostics": [
+      "Check internet connection stability",
+      "Disable and re-enable VPN connection",
+      "Update VPN client to latest version",
+      "Test with different VPN server location"
+    ],
+    "network_status": {
+      "building_network": "N/A",
+      "floor_switch": "N/A",
+      "user_port": "N/A",
+      "isp_status": "intermittent connectivity reported"
+    },
+    "temporary_solution": {
+      "type": "web_vpn",
+      "available": true,
+      "instructions": "Use web-based VPN at vpn.company.com"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": true,
+      "network_team_eta": "30 minutes",
+      "reason": "VPN infrastructure investigation needed"
+    },
+    "success_rate": "82%",
+    "next_steps": "Update VPN client. Contact Network Team at ext. 4700 for server-side diagnostics."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "firewall_blocking",
+    "ticket_id": "NET-2024-6846",
+    "status": "pending_approval",
+    "estimated_resolution_minutes": 45,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Identify blocked port or application",
+      "Check Windows Firewall settings",
+      "Verify if corporate firewall policy blocking",
+      "Submit firewall exception request"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "operational",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "alternative_port",
+      "available": false,
+      "instructions": "N/A - Requires firewall rule change"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": true,
+      "network_team_eta": "1-2 hours",
+      "reason": "Firewall policy review and approval needed"
+    },
+    "success_rate": "75%",
+    "next_steps": "Submit firewall exception request via ServiceNow with business justification."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "ethernet_port_dead",
+    "ticket_id": "NET-2024-6847",
+    "status": "dispatched",
+    "estimated_resolution_minutes": 120,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Try different ethernet cable",
+      "Test port with another device",
+      "Check if port is disabled in switch",
+      "Try adjacent wall port if available"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "potentially faulty",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "wifi_connection",
+      "available": true,
+      "instructions": "Connect to corporate WiFi while port is being repaired"
+    },
+    "remote_support_available": false,
+    "escalation": {
+      "required": true,
+      "network_team_eta": "2 hours",
+      "reason": "Physical port inspection and repair needed"
+    },
+    "success_rate": "95%",
+    "next_steps": "Use WiFi temporarily. Network technician will inspect physical port."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "ip_conflict",
+    "ticket_id": "NET-2024-6848",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 10,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Release and renew IP address (ipconfig /release, ipconfig /renew)",
+      "Restart network adapter",
+      "Check for static IP configuration",
+      "Disconnect other devices with potential conflicts"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "IP conflict detected",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "manual_ip_assignment",
+      "available": true,
+      "instructions": "Contact network team for temporary static IP assignment"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": false,
+      "network_team_eta": "15 minutes if needed"
+    },
+    "success_rate": "93%",
+    "next_steps": "Release and renew IP. If conflict persists, network team will assign static IP."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "proxy_configuration_error",
+    "ticket_id": "NET-2024-6849",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 15,
+    "priority": "LOW",
+    "immediate_diagnostics": [
+      "Verify proxy settings in browser",
+      "Check system proxy configuration",
+      "Try disabling proxy temporarily",
+      "Update proxy PAC file if required"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "operational",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "direct_connection",
+      "available": true,
+      "instructions": "Disable proxy for immediate access, re-enable after troubleshooting"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": false,
+      "network_team_eta": "20 minutes if needed"
+    },
+    "success_rate": "90%",
+    "next_steps": "Reset proxy settings to automatic detection. Contact IT for correct configuration."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "certificate_error",
+    "ticket_id": "NET-2024-6850",
+    "status": "investigating",
+    "estimated_resolution_minutes": 20,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Check system date and time accuracy",
+      "Verify certificate expiration date",
+      "Clear browser SSL cache",
+      "Check if certificate is trusted"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "operational",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "time_sync",
+      "available": true,
+      "instructions": "Sync system time with time.windows.com"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": false,
+      "network_team_eta": "25 minutes if needed"
+    },
+    "success_rate": "88%",
+    "next_steps": "Check system time first. Contact IT Security if certificate trust issue persists."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "bandwidth_throttling",
+    "ticket_id": "NET-2024-6851",
+    "status": "monitoring",
+    "estimated_resolution_minutes": 30,
+    "priority": "LOW",
+    "immediate_diagnostics": [
+      "Identify bandwidth-heavy applications",
+      "Close unnecessary cloud sync services",
+      "Schedule large downloads for off-peak hours",
+      "Check QoS policy settings"
+    ],
+    "network_status": {
+      "building_network": "high utilization",
+      "floor_switch": "congested",
+      "user_port": "operational",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "usage_management",
+      "available": true,
+      "instructions": "Pause non-critical uploads/downloads during business hours"
+    },
+    "remote_support_available": false,
+    "escalation": {
+      "required": true,
+      "network_team_eta": "1 hour",
+      "reason": "Network capacity assessment needed"
+    },
+    "success_rate": "70%",
+    "next_steps": "Manage bandwidth usage. Network team will evaluate infrastructure upgrade."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "wireless_signal_weak",
+    "ticket_id": "NET-2024-6852",
+    "status": "scheduled",
+    "estimated_resolution_minutes": 180,
+    "priority": "LOW",
+    "immediate_diagnostics": [
+      "Move closer to access point",
+      "Check for physical obstructions",
+      "Switch to 5GHz band if available",
+      "Identify interference sources"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "N/A",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "ethernet_connection",
+      "available": true,
+      "instructions": "Use wired connection or relocate to area with better signal"
+    },
+    "remote_support_available": false,
+    "escalation": {
+      "required": true,
+      "network_team_eta": "3 hours",
+      "reason": "WiFi coverage assessment and potential AP installation"
+    },
+    "success_rate": "85%",
+    "next_steps": "Use ethernet temporarily. Network team will conduct site survey for AP placement."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "port_forwarding_issue",
+    "ticket_id": "NET-2024-6853",
+    "status": "pending_security_review",
+    "estimated_resolution_minutes": 120,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Verify port forwarding requirements",
+      "Check if port is blocked by firewall",
+      "Submit security exception request",
+      "Test with alternative port if possible"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "operational",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "cloud_service",
+      "available": true,
+      "instructions": "Consider using cloud-based alternative instead of port forwarding"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": true,
+      "network_team_eta": "2 hours",
+      "reason": "Security review and firewall rule configuration"
+    },
+    "success_rate": "68%",
+    "next_steps": "Submit port forwarding request with business justification to IT Security."
+  },
+  {
+    "request_type": "network_problem",
+    "issue_category": "network_printer_offline",
+    "ticket_id": "NET-2024-6854",
+    "status": "troubleshooting",
+    "estimated_resolution_minutes": 15,
+    "priority": "MEDIUM",
+    "immediate_diagnostics": [
+      "Ping printer IP address to check connectivity",
+      "Remove and re-add network printer",
+      "Check if printer is online in printer properties",
+      "Verify printer network cable connection"
+    ],
+    "network_status": {
+      "building_network": "operational",
+      "floor_switch": "operational",
+      "user_port": "operational",
+      "isp_status": "normal"
+    },
+    "temporary_solution": {
+      "type": "alternative_printer",
+      "available": true,
+      "instructions": "Use nearby printer on same floor - check printer map"
+    },
+    "remote_support_available": true,
+    "escalation": {
+      "required": false,
+      "network_team_eta": "20 minutes if needed"
+    },
+    "success_rate": "92%",
+    "next_steps": "Re-add printer using IP address. Contact Facilities if printer power issue."
+  }
+]
